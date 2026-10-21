@@ -1,0 +1,7 @@
+# Runtime
+flet==0.86.5
+
+# Empaquetado desktop (usado por build.sh)
+nuitka
+ordered-set
+zstandard

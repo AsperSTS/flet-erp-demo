@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# SQLite (se regenera con init_db)
+*.db
+*.sqlite3
+
+# Builds (Nuitka / PyInstaller)
+build/
+dist/
+*.build/
+*.dist/
+*.bin
+*.onefile-build/
+*.cmd
+
+# Graphify
+graphify-out/
+raw/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/

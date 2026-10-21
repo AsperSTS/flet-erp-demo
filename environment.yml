@@ -1,0 +1,11 @@
+name: zyra_312_dev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - flet==0.86.5
+      - nuitka
+      - ordered-set
+      - zstandard
